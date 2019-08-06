@@ -36,6 +36,7 @@ th, td {
 }
 
 button {
+  outline: none;
   cursor: pointer;
   background-color: #fff;
   border: 3px solid #F5F5F5;
@@ -48,7 +49,6 @@ button {
 
 button:hover {
   background-color: #fbfbfbf7;
-  outline: none;
 }
 
 button:disabled {

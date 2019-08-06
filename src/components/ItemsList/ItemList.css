@@ -31,22 +31,37 @@ tr {
   border: 3px solid #F5F5F5;
 }
 
-thead th:nth-child(1) {
-  width: 30%;
-}
-
-thead th:nth-child(2) {
-  width: 20%;
-}
-
-thead th:nth-child(3) {
-  width: 15%;
-}
-
-thead th:nth-child(4) {
-  width: 35%;
-}
-
 th, td {
   padding: 20px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #fff;
+  border: 3px solid #F5F5F5;
+  padding: 0 10px;
+  height: 50px;
+  width: 50px;
+  font-size: 18px;
+  transition: background-color .2s ease-in-out;
+}
+
+button:hover {
+  background-color: #fbfbfbf7;
+  outline: none;
+}
+
+button:disabled {
+  background-color: #ececec59;
+  color: #d8d8d8;
+}
+
+.btn-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.page-counter {
+  padding: 0 20px;
 }
